@@ -1,16 +1,16 @@
 class Apollo < Formula
   desc "AI-powered coding assistant for your terminal"
   homepage "https://github.com/i-luv-pho/apollov2"
-  version "1.0.2"
+  version "1.0.0"
   license "Apache-2.0"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/i-luv-pho/apollov2/releases/download/v1.0.2/apollo-darwin-arm64.tar.gz"
-      sha256 "2ad31e0ec6b91a8d37e0f506d4d3692a6e08d9910a9a728fcdc6d27cf7ee3f4f"
+      url "https://github.com/i-luv-pho/apollov2/releases/download/v1.0.0/apollo-darwin-arm64.tar.gz"
+      sha256 "eae7c09a93ed15108830ddc2f734d4dcc39e8784102d29f2304a08110b626851"
     else
-      url "https://github.com/i-luv-pho/apollov2/releases/download/v1.0.2/apollo-darwin-x64.tar.gz"
-      sha256 "27e4a8e5e302e1bd646ee734cb7ae11f0eb927698da90370c374b2971e1cd2e9"
+      url "https://github.com/i-luv-pho/apollov2/releases/download/v1.0.0/apollo-darwin-x64.tar.gz"
+      sha256 "42e751e0d5725f5092dd8cf043c60266e5c8f46c5145e1d5d8dd7b3e9c62d355"
     end
   end
 

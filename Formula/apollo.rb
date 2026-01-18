@@ -19,6 +19,6 @@ class Apollo < Formula
   end
 
   test do
-    assert_match "apollo", shell_output("#{bin}/apollo --version")
+    assert_match "apollo", shell_output("#{bin}/apollo --help")
   end
 end
